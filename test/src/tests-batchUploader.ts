@@ -559,7 +559,7 @@ describe('batch uploader', () => {
             done();
         });
 
-        it('should add a mutated boolean of true to a batch that has been mutated via a config.onCreateBatch call', function(done) {
+        it('should add a modified boolean of true to a batch that has been modified via a config.onCreateBatch call', function(done) {
             window.mParticle._resetForTests(MPConfig);
             var clock = sinon.useFakeTimers();
 
@@ -573,7 +573,25 @@ describe('batch uploader', () => {
             clock.tick(1000);
             
             var batch = JSON.parse(mockServer.secondRequest.requestBody);
-            batch.mutated.should.equal(true);
+            batch.modified.should.equal(true);
+            done();
+        });
+
+        it('should not send a batch if callback returns null or undefined', function(done) {
+            window.mParticle._resetForTests(MPConfig);
+            var clock = sinon.useFakeTimers();
+
+            window.mParticle.config.onCreateBatch = function (batch: Batch) {
+                return null;
+            };
+
+            window.mParticle.init(apiKey, window.mParticle.config);
+            window.mParticle.logEvent('Test Event');
+            
+            clock.tick(1000);
+
+            var batch = mockServer.secondRequest; //first request is the identity call
+            (batch === null).should.be.equal(true);
             done();
         });
 
@@ -584,7 +602,7 @@ describe('batch uploader', () => {
             window.mParticle.config.onCreateBatch = function (batch) {
                 batch.events.map(event => {
                     if (event.event_type === "custom_event") {
-                        (event.data as CustomEventData).event_name = 'Mutated!'
+                        (event.data as CustomEventData).event_name = 'modified!'
                     }
                 });
                 return batch;
@@ -600,7 +618,7 @@ describe('batch uploader', () => {
             batch.events[0].event_type.should.equal('session_start');
             batch.events[1].event_type.should.equal('application_state_transition');
             batch.events[2].event_type.should.equal('custom_event');
-            batch.events[2].data.event_name.should.equal('Mutated!');
+            batch.events[2].data.event_name.should.equal('modified!');
             done();
         });
     })
