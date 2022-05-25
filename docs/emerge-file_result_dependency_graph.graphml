@@ -230,7 +230,7 @@
       <data key="d39">0.25024580272149466</data>
       <data key="d8">1</data>
       <data key="d9">2</data>
-      <data key="d10">2</data>
+      <data key="d10">1</data>
     </node>
     <node id="src/ecommerce.js">
       <data key="d1">src/ecommerce.js</data>
@@ -242,7 +242,7 @@
       <data key="d21">0.2637188483043466</data>
       <data key="d8">1</data>
       <data key="d9">2</data>
-      <data key="d10">1</data>
+      <data key="d10">2</data>
     </node>
     <node id="src/store.js">
       <data key="d1">src/store.js</data>

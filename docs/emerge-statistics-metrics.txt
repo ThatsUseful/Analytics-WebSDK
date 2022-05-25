@@ -11,10 +11,10 @@ the following statistics were collected in js check
 |       file_results_creation_runtime | 00:00:00 + 255 ms |
 |    number-of-methods-metric-runtime | 00:00:00 + 2 ms   |
 | source-lines-of-code-metric-runtime | 00:00:00 + 6 ms   |
-|            t-f-i-d-f-metric-runtime | 00:00:00 + 84 ms  |
+|            t-f-i-d-f-metric-runtime | 00:00:00 + 81 ms  |
 |           fan-in-out-metric-runtime | 00:00:00 + 0 ms   |
-|   louvain-modularity-metric-runtime | 00:00:00 + 10 ms  |
-|                       total_runtime | 00:00:00 + 360 ms |
+|   louvain-modularity-metric-runtime | 00:00:00 + 9 ms   |
+|                       total_runtime | 00:00:00 + 356 ms |
 +-------------------------------------+-------------------+
 
 the following overall metrics were collected in js check
@@ -32,7 +32,7 @@ the following overall metrics were collected in js check
 |            max-fan-out-name-dependency-graph | src/mp-instance.js           |
 |         louvain-communities-dependency-graph | 9                            |
 |          louvain-modularity-dependency-graph | 0.4                          |
-| louvain-biggest-communities-dependency-graph | 0.23, 0.17, 0.15, 0.15, 0.12 |
+| louvain-biggest-communities-dependency-graph | 0.23, 0.18, 0.15, 0.14, 0.12 |
 +----------------------------------------------+------------------------------+
 
 the following local metrics were collected in js check
@@ -81,7 +81,7 @@ the following local metrics were collected in js check
 |                                   | tag_persistence: 0.25024580272149466                         |
 |                                   | fan-in-dependency-graph: 1                                   |
 |                                   | fan-out-dependency-graph: 2                                  |
-|                                   | file_result_dependency_graph_louvain-modularity-in-file: 2   |
+|                                   | file_result_dependency_graph_louvain-modularity-in-file: 1   |
 | --------------------------------- | ------------------------------------------------------------ |
 |                      src/types.js | number-of-methods-in-file: 0                                 |
 |                                   | sloc-in-file: 352                                            |
@@ -220,7 +220,7 @@ the following local metrics were collected in js check
 |                                   | tag_product: 0.2637188483043466                              |
 |                                   | fan-in-dependency-graph: 1                                   |
 |                                   | fan-out-dependency-graph: 2                                  |
-|                                   | file_result_dependency_graph_louvain-modularity-in-file: 1   |
+|                                   | file_result_dependency_graph_louvain-modularity-in-file: 2   |
 | --------------------------------- | ------------------------------------------------------------ |
 |                src/kitBlocking.ts | number-of-methods-in-file: 1                                 |
 |                                   | sloc-in-file: 411                                            |
