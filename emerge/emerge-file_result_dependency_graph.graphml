@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d102" for="node" attr.name="metric_tag_voidfunction" attr.type="float" />
+  <key id="d101" for="node" attr.name="metric_tag_uploads" attr.type="float" />
+  <key id="d100" for="node" attr.name="metric_tag_fetchpayload" attr.type="float" />
+  <key id="d99" for="node" attr.name="metric_tag_events" attr.type="float" />
+  <key id="d98" for="node" attr.name="metric_tag_matchkey" attr.type="float" />
+  <key id="d97" for="node" attr.name="metric_tag_properties" attr.type="float" />
+  <key id="d96" for="node" attr.name="metric_tag_matchedevent" attr.type="float" />
+  <key id="d95" for="node" attr.name="metric_tag_clonedevent" attr.type="float" />
+  <key id="d94" for="node" attr.name="metric_tag_eventoptions" attr.type="float" />
+  <key id="d93" for="node" attr.name="metric_tag_client" attr.type="float" />
+  <key id="d92" for="node" attr.name="metric_tag_instancename" attr.type="float" />
+  <key id="d91" for="node" attr.name="metric_tag_currentuseridentities" attr.type="float" />
+  <key id="d90" for="node" attr.name="metric_tag_userattributeslists" attr.type="float" />
+  <key id="d89" for="node" attr.name="metric_tag_kitblocker" attr.type="float" />
+  <key id="d88" for="node" attr.name="metric_tag_userattributescopy" attr.type="float" />
+  <key id="d87" for="node" attr.name="metric_tag_commoneventdata" attr.type="float" />
+  <key id="d86" for="node" attr.name="metric_tag_interface" attr.type="float" />
+  <key id="d85" for="node" attr.name="metric_tag_baseevent" attr.type="float" />
+  <key id="d84" for="node" attr.name="metric_tag_batch" attr.type="float" />
+  <key id="d83" for="node" attr.name="metric_tag_servermodel" attr.type="float" />
+  <key id="d82" for="node" attr.name="metric_tag_convertevents" attr.type="float" />
+  <key id="d81" for="node" attr.name="metric_tag_used" attr.type="float" />
+  <key id="d80" for="node" attr.name="metric_tag_sdkevent" attr.type="float" />
+  <key id="d79" for="node" attr.name="metric_tag_logging" attr.type="float" />
+  <key id="d78" for="node" attr.name="metric_tag_request" attr.type="float" />
+  <key id="d77" for="node" attr.name="metric_tag_previousmpid" attr.type="float" />
+  <key id="d76" for="node" attr.name="metric_tag_xhrcallback" attr.type="float" />
+  <key id="d75" for="node" attr.name="metric_tag_method" attr.type="float" />
+  <key id="d74" for="node" attr.name="metric_tag_completesdkinitialization" attr.type="float" />
+  <key id="d73" for="node" attr.name="metric_tag_apikey" attr.type="float" />
+  <key id="d72" for="node" attr.name="metric_tag_state" attr.type="float" />
+  <key id="d71" for="node" attr.name="metric_tag_gdprconsentstate" attr.type="float" />
+  <key id="d70" for="node" attr.name="metric_tag_consent" attr.type="float" />
+  <key id="d69" for="node" attr.name="metric_tag_ccpapurpose" attr.type="float" />
+  <key id="d68" for="node" attr.name="metric_tag_userattributes" attr.type="float" />
+  <key id="d67" for="node" attr.name="metric_tag_uploadstable" attr.type="float" />
+  <key id="d66" for="node" attr.name="metric_tag_eventobject" attr.type="float" />
+  <key id="d65" for="node" attr.name="metric_tag_gdpr" attr.type="float" />
+  <key id="d64" for="node" attr.name="metric_tag_typeof" attr.type="float" />
+  <key id="d63" for="node" attr.name="metric_tag_dtouseridentities" attr.type="float" />
+  <key id="d62" for="node" attr.name="metric_tag_purpose" attr.type="float" />
+  <key id="d61" for="node" attr.name="metric_tag_forwarder" attr.type="float" />
+  <key id="d60" for="node" attr.name="metric_tag_attrname" attr.type="float" />
+  <key id="d59" for="node" attr.name="metric_tag_result" attr.type="float" />
+  <key id="d58" for="node" attr.name="metric_tag_element" attr.type="float" />
+  <key id="d57" for="node" attr.name="metric_tag_transactionattributes" attr.type="float" />
+  <key id="d56" for="node" attr.name="metric_tag_console" attr.type="float" />
+  <key id="d55" for="node" attr.name="metric_tag_loglevel" attr.type="float" />
+  <key id="d54" for="node" attr.name="metric_tag_msg" attr.type="float" />
+  <key id="d53" for="node" attr.name="metric_tag_must" attr.type="float" />
+  <key id="d52" for="node" attr.name="metric_tag_createsdkconfig" attr.type="float" />
+  <key id="d51" for="node" attr.name="metric_tag_defaultstore" attr.type="float" />
+  <key id="d50" for="node" attr.name="metric_tag_callback" attr.type="float" />
+  <key id="d49" for="node" attr.name="metric_tag_sdkconfig" attr.type="float" />
+  <key id="d48" for="node" attr.name="metric_tag_config" attr.type="float" />
+  <key id="d47" for="node" attr.name="metric_tag_prop" attr.type="float" />
+  <key id="d46" for="node" attr.name="metric_tag_appevents" attr.type="float" />
+  <key id="d45" for="node" attr.name="metric_tag_attributes" attr.type="float" />
+  <key id="d44" for="node" attr.name="metric_tag_timesincelasteventsent" attr.type="float" />
+  <key id="d43" for="node" attr.name="metric_tag_date" attr.type="float" />
+  <key id="d42" for="node" attr.name="metric_tag_sessiontimeoutinmilliseconds" attr.type="float" />
+  <key id="d41" for="node" attr.name="metric_tag_urlwithredirect" attr.type="float" />
+  <key id="d40" for="node" attr.name="metric_tag_mpidisnotincookies" attr.type="float" />
+  <key id="d39" for="node" attr.name="metric_tag_persistence" attr.type="float" />
+  <key id="d38" for="node" attr.name="metric_tag_requiresconsent" attr.type="float" />
+  <key id="d37" for="node" attr.name="metric_tag_requiredwebviewbridgename" attr.type="float" />
+  <key id="d36" for="node" attr.name="metric_tag_iosbridgename" attr.type="float" />
+  <key id="d35" for="node" attr.name="metric_tag_path" attr.type="float" />
+  <key id="d34" for="node" attr.name="metric_tag_copy" attr.type="float" />
+  <key id="d33" for="node" attr.name="metric_tag_hash" attr.type="float" />
+  <key id="d32" for="node" attr.name="metric_tag_useridentitiesobject" attr.type="float" />
+  <key id="d31" for="node" attr.name="metric_tag_value" attr.type="float" />
+  <key id="d30" for="node" attr.name="metric_tag_target" attr.type="float" />
+  <key id="d29" for="node" attr.name="metric_tag_mpid" attr.type="float" />
+  <key id="d28" for="node" attr.name="metric_tag_xhr" attr.type="float" />
+  <key id="d27" for="node" attr.name="metric_tag_url" attr.type="float" />
+  <key id="d26" for="node" attr.name="metric_tag_forwardingstatsdata" attr.type="float" />
+  <key id="d25" for="node" attr.name="metric_tag_event" attr.type="float" />
+  <key id="d24" for="node" attr.name="metric_tag_id" attr.type="float" />
+  <key id="d23" for="node" attr.name="metric_tag_switch" attr.type="float" />
+  <key id="d22" for="node" attr.name="metric_tag_customflags" attr.type="float" />
+  <key id="d21" for="node" attr.name="metric_tag_product" attr.type="float" />
+  <key id="d20" for="node" attr.name="metric_tag_queued" attr.type="float" />
+  <key id="d19" for="node" attr.name="metric_tag_object" attr.type="float" />
+  <key id="d18" for="node" attr.name="metric_tag_attrs" attr.type="float" />
+  <key id="d17" for="node" attr.name="metric_tag_kvalue" attr.type="float" />
+  <key id="d16" for="node" attr.name="metric_tag_thisarg" attr.type="float" />
+  <key id="d15" for="node" attr.name="metric_tag_typeerror" attr.type="float" />
+  <key id="d14" for="node" attr.name="metric_tag_len" attr.type="float" />
+  <key id="d13" for="node" attr.name="metric_tag_utftext" attr.type="float" />
+  <key id="d12" for="node" attr.name="metric_tag_input" attr.type="float" />
+  <key id="d11" for="node" attr.name="metric_tag_output" attr.type="float" />
+  <key id="d10" for="node" attr.name="metric_file_result_dependency_graph_louvain-modularity-in-file" attr.type="long" />
+  <key id="d9" for="node" attr.name="metric_fan-out-dependency-graph" attr.type="long" />
+  <key id="d8" for="node" attr.name="metric_fan-in-dependency-graph" attr.type="long" />
+  <key id="d7" for="node" attr.name="metric_tag_key" attr.type="float" />
+  <key id="d6" for="node" attr.name="metric_tag_localstorageproducts" attr.type="float" />
+  <key id="d5" for="node" attr.name="metric_tag_cookie" attr.type="float" />
+  <key id="d4" for="node" attr.name="metric_tag_cookies" attr.type="float" />
+  <key id="d3" for="node" attr.name="metric_sloc-in-file" attr.type="long" />
+  <key id="d2" for="node" attr.name="metric_number-of-methods-in-file" attr.type="long" />
+  <key id="d1" for="node" attr.name="display_name" attr.type="string" />
+  <key id="d0" for="node" attr.name="absolute_name" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="src/migrations.js">
+      <data key="d0">src/migrations.js</data>
+      <data key="d1">src/migrations.js</data>
+      <data key="d2">8</data>
+      <data key="d3">240</data>
+      <data key="d4">0.42393777059578047</data>
+      <data key="d5">0.42393777059578047</data>
+      <data key="d6">0.3367705721215073</data>
+      <data key="d7">0.24416565996378498</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">4</data>
+    </node>
+    <node id="src/constants">
+      <data key="d1">src/constants</data>
+      <data key="d8">15</data>
+      <data key="d9">0</data>
+      <data key="d10">2</data>
+    </node>
+    <node id="src/polyfill.js">
+      <data key="d1">src/polyfill.js</data>
+      <data key="d0">src/polyfill.js</data>
+      <data key="d2">6</data>
+      <data key="d3">196</data>
+      <data key="d11">0.5109666386338406</data>
+      <data key="d12">0.4379714045432919</data>
+      <data key="d13">0.32847855340746895</data>
+      <data key="d14">0.2554833193169203</data>
+      <data key="d15">0.21898570227164596</data>
+      <data key="d16">0.21898570227164596</data>
+      <data key="d17">0.21898570227164596</data>
+      <data key="d8">3</data>
+      <data key="d9">0</data>
+      <data key="d10">4</data>
+    </node>
+    <node id="src/mp-instance.js">
+      <data key="d0">src/mp-instance.js</data>
+      <data key="d1">src/mp-instance.js</data>
+      <data key="d2">6</data>
+      <data key="d3">1046</data>
+      <data key="d18">0.2985135170791304</data>
+      <data key="d19">0.28909115907194516</data>
+      <data key="d20">0.28456223975927847</data>
+      <data key="d21">0.2684649578705145</data>
+      <data key="d22">0.24604543567116807</data>
+      <data key="d8">1</data>
+      <data key="d9">21</data>
+      <data key="d10">3</data>
+    </node>
+    <node id="src/types.js">
+      <data key="d1">src/types.js</data>
+      <data key="d0">src/types.js</data>
+      <data key="d2">0</data>
+      <data key="d3">352</data>
+      <data key="d23">0.3616827140334582</data>
+      <data key="d24">0.2991621898072251</data>
+      <data key="d8">11</data>
+      <data key="d9">0</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/apiClient.js">
+      <data key="d1">src/apiClient.js</data>
+      <data key="d0">src/apiClient.js</data>
+      <data key="d2">1</data>
+      <data key="d3">222</data>
+      <data key="d25">0.6080061535830186</data>
+      <data key="d26">0.36167066325108044</data>
+      <data key="d27">0.22970954726791856</data>
+      <data key="d28">0.2234003219692039</data>
+      <data key="d29">0.21054555966280372</data>
+      <data key="d8">1</data>
+      <data key="d9">3</data>
+      <data key="d10">5</data>
+    </node>
+    <node id="src/helpers.js">
+      <data key="d1">src/helpers.js</data>
+      <data key="d0">src/helpers.js</data>
+      <data key="d2">2</data>
+      <data key="d3">631</data>
+      <data key="d30">0.3516151805216999</data>
+      <data key="d31">0.2442682416099225</data>
+      <data key="d32">0.23441012034779996</data>
+      <data key="d33">0.22990296122352213</data>
+      <data key="d34">0.22990296122352213</data>
+      <data key="d8">1</data>
+      <data key="d9">3</data>
+      <data key="d10">6</data>
+    </node>
+    <node id="src/nativeSdkHelpers.js">
+      <data key="d1">src/nativeSdkHelpers.js</data>
+      <data key="d0">src/nativeSdkHelpers.js</data>
+      <data key="d2">1</data>
+      <data key="d3">172</data>
+      <data key="d35">0.698701805969609</data>
+      <data key="d36">0.3267085490742948</data>
+      <data key="d31">0.31917026455691405</data>
+      <data key="d37">0.2912970061259083</data>
+      <data key="d8">1</data>
+      <data key="d9">1</data>
+      <data key="d10">2</data>
+    </node>
+    <node id="src/cookieSyncManager.js">
+      <data key="d1">src/cookieSyncManager.js</data>
+      <data key="d0">src/cookieSyncManager.js</data>
+      <data key="d2">1</data>
+      <data key="d3">140</data>
+      <data key="d29">0.5278710677266296</data>
+      <data key="d38">0.4290454722029434</data>
+      <data key="d39">0.412191333374286</data>
+      <data key="d40">0.255027836275308</data>
+      <data key="d41">0.23835859566830192</data>
+      <data key="d8">1</data>
+      <data key="d9">1</data>
+      <data key="d10">2</data>
+    </node>
+    <node id="src/sessionManager.js">
+      <data key="d1">src/sessionManager.js</data>
+      <data key="d0">src/sessionManager.js</data>
+      <data key="d2">1</data>
+      <data key="d3">160</data>
+      <data key="d42">0.6584308339826457</data>
+      <data key="d43">0.3751512657172955</data>
+      <data key="d44">0.2821846431354196</data>
+      <data key="d39">0.25024580272149466</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">2</data>
+    </node>
+    <node id="src/ecommerce.js">
+      <data key="d1">src/ecommerce.js</data>
+      <data key="d0">src/ecommerce.js</data>
+      <data key="d2">1</data>
+      <data key="d3">510</data>
+      <data key="d45">0.7325523564009628</data>
+      <data key="d46">0.26917853087067845</data>
+      <data key="d21">0.2637188483043466</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/store.js">
+      <data key="d1">src/store.js</data>
+      <data key="d0">src/store.js</data>
+      <data key="d2">2</data>
+      <data key="d3">270</data>
+      <data key="d47">0.47203723369350786</data>
+      <data key="d48">0.32712900474514817</data>
+      <data key="d49">0.3041481443194189</data>
+      <data key="d50">0.2574748547419134</data>
+      <data key="d51">0.21530497471709306</data>
+      <data key="d52">0.21530497471709306</data>
+      <data key="d53">0.2044556279657176</data>
+      <data key="d8">1</data>
+      <data key="d9">1</data>
+      <data key="d10">2</data>
+    </node>
+    <node id="src/logger.js">
+      <data key="d1">src/logger.js</data>
+      <data key="d0">src/logger.js</data>
+      <data key="d2">2</data>
+      <data key="d3">54</data>
+      <data key="d54">0.82585958828051</data>
+      <data key="d55">0.4662506563303627</data>
+      <data key="d56">0.2064648970701275</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">3</data>
+    </node>
+    <node id="src/persistence.js">
+      <data key="d1">src/persistence.js</data>
+      <data key="d0">src/persistence.js</data>
+      <data key="d2">4</data>
+      <data key="d3">1031</data>
+      <data key="d39">0.683531870500845</data>
+      <data key="d29">0.47006696762602096</data>
+      <data key="d7">0.2738651028777688</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">4</data>
+    </node>
+    <node id="src/events.js">
+      <data key="d1">src/events.js</data>
+      <data key="d0">src/events.js</data>
+      <data key="d2">4</data>
+      <data key="d3">384</data>
+      <data key="d25">0.4898781767938395</data>
+      <data key="d18">0.3192055072548644</data>
+      <data key="d22">0.269846675259265</data>
+      <data key="d50">0.2628059837254708</data>
+      <data key="d57">0.20422605318232015</data>
+      <data key="d58">0.2028581150511463</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/forwarders.js">
+      <data key="d1">src/forwarders.js</data>
+      <data key="d0">src/forwarders.js</data>
+      <data key="d2">1</data>
+      <data key="d3">548</data>
+      <data key="d59">0.5797312406352809</data>
+      <data key="d60">0.2193707085224391</data>
+      <data key="d61">0.21873231135756405</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/serverModel.js">
+      <data key="d1">src/serverModel.js</data>
+      <data key="d0">src/serverModel.js</data>
+      <data key="d2">4</data>
+      <data key="d3">325</data>
+      <data key="d62">0.33313077759086174</data>
+      <data key="d63">0.2941328136894365</data>
+      <data key="d64">0.26942250628790076</data>
+      <data key="d47">0.26380650370141767</data>
+      <data key="d65">0.2591017159040036</data>
+      <data key="d66">0.24511067807453044</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/forwardingStatsUploader.js">
+      <data key="d1">src/forwardingStatsUploader.js</data>
+      <data key="d0">src/forwardingStatsUploader.js</data>
+      <data key="d2">2</data>
+      <data key="d3">50</data>
+      <data key="d67">0.7329308971338487</data>
+      <data key="d43">0.5204047524745908</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">3</data>
+    </node>
+    <node id="src/identity.js">
+      <data key="d1">src/identity.js</data>
+      <data key="d0">src/identity.js</data>
+      <data key="d2">1</data>
+      <data key="d3">1513</data>
+      <data key="d29">0.31868917975501604</data>
+      <data key="d50">0.312887594933095</data>
+      <data key="d7">0.2945460600766057</data>
+      <data key="d68">0.28325267230503354</data>
+      <data key="d8">1</data>
+      <data key="d9">2</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/consent.js">
+      <data key="d1">src/consent.js</data>
+      <data key="d0">src/consent.js</data>
+      <data key="d2">11</data>
+      <data key="d3">299</data>
+      <data key="d62">0.5790357115647392</data>
+      <data key="d69">0.3632572039349362</data>
+      <data key="d70">0.3355648243255608</data>
+      <data key="d71">0.23391636425672863</data>
+      <data key="d72">0.22806719658453592</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">3</data>
+    </node>
+    <node id="src/kitBlocking">
+      <data key="d1">src/kitBlocking</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">3</data>
+    </node>
+    <node id="src/configAPIClient.js">
+      <data key="d1">src/configAPIClient.js</data>
+      <data key="d0">src/configAPIClient.js</data>
+      <data key="d2">1</data>
+      <data key="d3">62</data>
+      <data key="d27">0.6594521433208212</data>
+      <data key="d48">0.45238357936091517</data>
+      <data key="d73">0.2997509742367369</data>
+      <data key="d74">0.28316924991170955</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">3</data>
+    </node>
+    <node id="src/identityApiClient.js">
+      <data key="d1">src/identityApiClient.js</data>
+      <data key="d0">src/identityApiClient.js</data>
+      <data key="d2">1</data>
+      <data key="d3">143</data>
+      <data key="d50">0.4514798368441377</data>
+      <data key="d28">0.4158470567841823</data>
+      <data key="d75">0.2970336119887017</data>
+      <data key="d76">0.28506088175276995</data>
+      <data key="d77">0.21379566131457747</data>
+      <data key="d8">1</data>
+      <data key="d9">1</data>
+      <data key="d10">2</data>
+    </node>
+    <node id="src/constants.ts">
+      <data key="d0">src/constants.ts</data>
+      <data key="d1">src/constants.ts</data>
+      <data key="d2">0</data>
+      <data key="d3">167</data>
+      <data key="d78">0.2318745013577244</data>
+      <data key="d53">0.22861162643599606</data>
+      <data key="d79">0.20802209785239933</data>
+      <data key="d8">0</data>
+      <data key="d9">1</data>
+      <data key="d10">7</data>
+    </node>
+    <node id="../package.json">
+      <data key="d1">../package.json</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">7</data>
+    </node>
+    <node id="slugify">
+      <data key="d1">slugify</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">6</data>
+    </node>
+    <node id="src/batchUploader">
+      <data key="d1">src/batchUploader</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">5</data>
+    </node>
+    <node id="src/mockBatchCreator.ts">
+      <data key="d0">src/mockBatchCreator.ts</data>
+      <data key="d1">src/mockBatchCreator.ts</data>
+      <data key="d2">0</data>
+      <data key="d3">45</data>
+      <data key="d80">0.4370725100323704</data>
+      <data key="d81">0.2775009065502041</data>
+      <data key="d82">0.2520719056655677</data>
+      <data key="d83">0.23361590530476817</data>
+      <data key="d84">0.2185362550161852</data>
+      <data key="d85">0.2185362550161852</data>
+      <data key="d8">0</data>
+      <data key="d9">4</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/serverModel">
+      <data key="d1">src/serverModel</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/sdkRuntimeModels.ts">
+      <data key="d1">src/sdkRuntimeModels.ts</data>
+      <data key="d0">src/sdkRuntimeModels.ts</data>
+      <data key="d2">0</data>
+      <data key="d3">278</data>
+      <data key="d86">0.7689051747618139</data>
+      <data key="d8">4</data>
+      <data key="d9">2</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/sdkToEventsApiConverter.ts">
+      <data key="d1">src/sdkToEventsApiConverter.ts</data>
+      <data key="d0">src/sdkToEventsApiConverter.ts</data>
+      <data key="d2">27</data>
+      <data key="d3">690</data>
+      <data key="d80">0.7929500621527698</data>
+      <data key="d87">0.36836982463561124</data>
+      <data key="d8">3</data>
+      <data key="d9">3</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="@mparticle/event-models">
+      <data key="d1">@mparticle/event-models</data>
+      <data key="d8">5</data>
+      <data key="d9">0</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/filteredMparticleUser.js">
+      <data key="d0">src/filteredMparticleUser.js</data>
+      <data key="d1">src/filteredMparticleUser.js</data>
+      <data key="d2">1</data>
+      <data key="d3">92</data>
+      <data key="d68">0.4914205905302347</data>
+      <data key="d88">0.37970774497168186</data>
+      <data key="d89">0.35093108084534413</data>
+      <data key="d47">0.3395184907755633</data>
+      <data key="d90">0.31642312080973484</data>
+      <data key="d91">0.31642312080973484</data>
+      <data key="d8">1</data>
+      <data key="d9">1</data>
+      <data key="d10">1</data>
+    </node>
+    <node id="src/mparticle-instance-manager.js">
+      <data key="d0">src/mparticle-instance-manager.js</data>
+      <data key="d1">src/mparticle-instance-manager.js</data>
+      <data key="d2">2</data>
+      <data key="d3">451</data>
+      <data key="d92">0.40583782821360287</data>
+      <data key="d93">0.3480738797108249</data>
+      <data key="d18">0.30334620636853826</data>
+      <data key="d22">0.2849330025141437</data>
+      <data key="d94">0.26176488506630374</data>
+      <data key="d8">0</data>
+      <data key="d9">5</data>
+      <data key="d10">4</data>
+    </node>
+    <node id="src/mockBatchCreator">
+      <data key="d1">src/mockBatchCreator</data>
+      <data key="d8">1</data>
+      <data key="d9">0</data>
+      <data key="d10">4</data>
+    </node>
+    <node id="src/kitBlocking.ts">
+      <data key="d0">src/kitBlocking.ts</data>
+      <data key="d1">src/kitBlocking.ts</data>
+      <data key="d2">1</data>
+      <data key="d3">411</data>
+      <data key="d95">0.3302937071275532</data>
+      <data key="d96">0.32686401796921466</data>
+      <data key="d97">0.31086466553181474</data>
+      <data key="d25">0.2830728148257743</data>
+      <data key="d98">0.21790934531280978</data>
+      <data key="d8">0</data>
+      <data key="d9">5</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/types">
+      <data key="d1">src/types</data>
+      <data key="d8">3</data>
+      <data key="d9">0</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="@mparticle/data-planning-models">
+      <data key="d1">@mparticle/data-planning-models</data>
+      <data key="d8">2</data>
+      <data key="d9">0</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/batchUploader.ts">
+      <data key="d0">src/batchUploader.ts</data>
+      <data key="d1">src/batchUploader.ts</data>
+      <data key="d2">0</data>
+      <data key="d3">281</data>
+      <data key="d99">0.32410194623636707</data>
+      <data key="d100">0.29237362958687046</data>
+      <data key="d101">0.2606836068726601</data>
+      <data key="d80">0.2524000786016519</data>
+      <data key="d84">0.2524000786016519</data>
+      <data key="d8">0</data>
+      <data key="d9">4</data>
+      <data key="d10">0</data>
+    </node>
+    <node id="src/stub/mparticle.stub.js">
+      <data key="d0">src/stub/mparticle.stub.js</data>
+      <data key="d1">src/stub/mparticle.stub.js</data>
+      <data key="d2">14</data>
+      <data key="d3">169</data>
+      <data key="d102">0.9470809397938884</data>
+      <data key="d8">0</data>
+      <data key="d9">0</data>
+      <data key="d10">8</data>
+    </node>
+    <edge source="src/migrations.js" target="src/constants" />
+    <edge source="src/migrations.js" target="src/polyfill.js" />
+    <edge source="src/mp-instance.js" target="src/types.js" />
+    <edge source="src/mp-instance.js" target="src/constants" />
+    <edge source="src/mp-instance.js" target="src/apiClient.js" />
+    <edge source="src/mp-instance.js" target="src/helpers.js" />
+    <edge source="src/mp-instance.js" target="src/nativeSdkHelpers.js" />
+    <edge source="src/mp-instance.js" target="src/cookieSyncManager.js" />
+    <edge source="src/mp-instance.js" target="src/sessionManager.js" />
+    <edge source="src/mp-instance.js" target="src/ecommerce.js" />
+    <edge source="src/mp-instance.js" target="src/store.js" />
+    <edge source="src/mp-instance.js" target="src/logger.js" />
+    <edge source="src/mp-instance.js" target="src/persistence.js" />
+    <edge source="src/mp-instance.js" target="src/events.js" />
+    <edge source="src/mp-instance.js" target="src/migrations.js" />
+    <edge source="src/mp-instance.js" target="src/forwarders.js" />
+    <edge source="src/mp-instance.js" target="src/serverModel.js" />
+    <edge source="src/mp-instance.js" target="src/forwardingStatsUploader.js" />
+    <edge source="src/mp-instance.js" target="src/identity.js" />
+    <edge source="src/mp-instance.js" target="src/consent.js" />
+    <edge source="src/mp-instance.js" target="src/kitBlocking" />
+    <edge source="src/mp-instance.js" target="src/configAPIClient.js" />
+    <edge source="src/mp-instance.js" target="src/identityApiClient.js" />
+    <edge source="src/apiClient.js" target="src/constants" />
+    <edge source="src/apiClient.js" target="src/types.js" />
+    <edge source="src/apiClient.js" target="src/batchUploader" />
+    <edge source="src/helpers.js" target="src/types.js" />
+    <edge source="src/helpers.js" target="src/constants" />
+    <edge source="src/helpers.js" target="slugify" />
+    <edge source="src/nativeSdkHelpers.js" target="src/constants" />
+    <edge source="src/cookieSyncManager.js" target="src/constants" />
+    <edge source="src/sessionManager.js" target="src/constants" />
+    <edge source="src/sessionManager.js" target="src/types.js" />
+    <edge source="src/ecommerce.js" target="src/types.js" />
+    <edge source="src/ecommerce.js" target="src/constants" />
+    <edge source="src/store.js" target="src/constants" />
+    <edge source="src/persistence.js" target="src/constants" />
+    <edge source="src/persistence.js" target="src/polyfill.js" />
+    <edge source="src/events.js" target="src/types.js" />
+    <edge source="src/events.js" target="src/constants" />
+    <edge source="src/forwarders.js" target="src/types.js" />
+    <edge source="src/forwarders.js" target="src/filteredMparticleUser.js" />
+    <edge source="src/serverModel.js" target="src/types.js" />
+    <edge source="src/serverModel.js" target="src/constants" />
+    <edge source="src/identity.js" target="src/constants" />
+    <edge source="src/identity.js" target="src/types.js" />
+    <edge source="src/identityApiClient.js" target="src/constants" />
+    <edge source="src/constants.ts" target="../package.json" />
+    <edge source="src/mockBatchCreator.ts" target="src/serverModel" />
+    <edge source="src/mockBatchCreator.ts" target="src/sdkRuntimeModels.ts" />
+    <edge source="src/mockBatchCreator.ts" target="src/sdkToEventsApiConverter.ts" />
+    <edge source="src/mockBatchCreator.ts" target="@mparticle/event-models" />
+    <edge source="src/sdkRuntimeModels.ts" target="@mparticle/event-models" />
+    <edge source="src/sdkRuntimeModels.ts" target="@mparticle/data-planning-models" />
+    <edge source="src/sdkToEventsApiConverter.ts" target="src/sdkRuntimeModels.ts" />
+    <edge source="src/sdkToEventsApiConverter.ts" target="@mparticle/event-models" />
+    <edge source="src/sdkToEventsApiConverter.ts" target="src/types" />
+    <edge source="src/filteredMparticleUser.js" target="src/types.js" />
+    <edge source="src/mparticle-instance-manager.js" target="src/polyfill.js" />
+    <edge source="src/mparticle-instance-manager.js" target="src/types.js" />
+    <edge source="src/mparticle-instance-manager.js" target="src/constants" />
+    <edge source="src/mparticle-instance-manager.js" target="src/mp-instance.js" />
+    <edge source="src/mparticle-instance-manager.js" target="src/mockBatchCreator" />
+    <edge source="src/kitBlocking.ts" target="src/sdkToEventsApiConverter.ts" />
+    <edge source="src/kitBlocking.ts" target="src/sdkRuntimeModels.ts" />
+    <edge source="src/kitBlocking.ts" target="@mparticle/event-models" />
+    <edge source="src/kitBlocking.ts" target="src/types" />
+    <edge source="src/kitBlocking.ts" target="@mparticle/data-planning-models" />
+    <edge source="src/batchUploader.ts" target="@mparticle/event-models" />
+    <edge source="src/batchUploader.ts" target="src/sdkRuntimeModels.ts" />
+    <edge source="src/batchUploader.ts" target="src/sdkToEventsApiConverter.ts" />
+    <edge source="src/batchUploader.ts" target="src/types" />
+  </graph>
+</graphml>
